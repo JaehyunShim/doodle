@@ -4,9 +4,6 @@
 - Install ROS
   ```sh
   # -------- ROS1 --------
-  # Ubuntu 16.04 with ROS1 Kinetic
-  $ wget https://raw.githubusercontent.com/JaehyunShim/doodles/master/install_ros_kinetic.sh && chmod 755 ./install_ros_kinetic.sh && bash ./install_ros_kinetic.sh
-
   # Ubuntu 18.04 with ROS1 Melodic
   $ wget https://raw.githubusercontent.com/JaehyunShim/doodles/master/install_ros_melodic.sh && chmod 755 ./install_ros_melodic.sh && bash ./install_ros_melodic.sh
 
@@ -23,9 +20,6 @@
 
 - Setup bashrc
   ```sh
-  # Ubuntu 16.04 with ROS1 Kinetic
-  https://github.com/JaehyunShim/dotfiles/blob/master/config/bash/bashrc16.04
-
   # Ubuntu 18.04 with ROS1 Melodic and ROS2 Dashing
   https://github.com/JaehyunShim/dotfiles/blob/master/config/bash/bashrc18.04
 
@@ -105,7 +99,7 @@
 - [ROS Planning](https://github.com/ros-planning)
   - MoveIt!
     - [MoveIt! Concepts](https://moveit.ros.org/documentation/concepts/)
-    - [MoveIt! Tutorial](http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html)
+    - [MoveIt! Tutorial](http://docs.ros.org/melodic/api/moveit_tutorials/html/index.html)
 - [ROS Perception](https://github.com/ros-perception)
 - [ROS Simulation](https://github.com/ros-simulation)
 - [ROS Drivers](https://github.com/ros-drivers)

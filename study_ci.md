@@ -8,7 +8,7 @@
   - [travis yml file](https://github.com/JaehyunShim/doodles/blob/master/.travis.yml)
 - Travis CI status
 
-|Kinetic + Ubuntu Xenial|
+|Melodic + Ubuntu Xenial|
 |:---:|
 |![Travis CI status](https://travis-ci.org/JaehyunShim/doodles.svg?branch=master)|
 

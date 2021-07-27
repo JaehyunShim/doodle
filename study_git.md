@@ -12,12 +12,10 @@ $ sudo apt-get install git
 ## 3. Configure
 ```sh
 $ git config --global user.name "JaehyunShim"
-$ git config --global user.email "jhshim@robotis.com"
-$ git config --global push.default simple
-$ git config --global --add color.ui true
+$ git config --global user.email "sjh2808@gmail.com"
 $ git config --global --list
 
-$ ssh-keygen -t rsa -b 4096 -C "jhshim@robotis.com"
+$ ssh-keygen -t rsa -b 4096 -C "sjh2808@gmail.com"
 Enter a file in which to save the key (/Users/you/.ssh/id_rsa): # press enter
 Enter passphrase (empty for no passphrase):                     # type 'qwert' and press enter
 Enter same passphrase again:                                    # type 'qwert' and press enter

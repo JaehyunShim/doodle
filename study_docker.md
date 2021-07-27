@@ -97,7 +97,7 @@
 
   # Pull
   $ docker pull TARGET_IMAGE[:TAG]
-  $ docker pull JaehyunShim/ros:kinetic-ros-base-xenial
+  $ docker pull JaehyunShim/ros:melodic-ros-base-xenial
 
   # Build
   $ docker build [OPTIONS] PATH | URL | -
@@ -109,8 +109,6 @@
 - [Dockerfile](https://github.com/JaehyunShim/doodles/blob/master/Dockerfile)
 - [Docker Image](https://hub.docker.com/r/jshim/ros/tags)
   ```sh
-  # Run ROS Kinetic Version
-  $ docker run --net=host -p 6080:80 -p 5900:5900 -e USER=ubuntu -e VNC_PASSWORD=1111 -v /dev/shm:/dev/shm JaehyunShim/ros:kinetic-ros-base-xenial
   # Run ROS Melodic Version
   $ docker run --net=host -p 6080:80 -p 5900:5900 -e USER=ubuntu -e VNC_PASSWORD=1111 -v /dev/shm:/dev/shm JaehyunShim/ros:melodic-ros-base-bionic
   # Run ROS2 Dashing Version
