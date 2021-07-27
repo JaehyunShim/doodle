@@ -3,6 +3,9 @@
 ## Setup My PC
 - [setup_my_pc](https://github.com/JaehyunShim/doodles/blob/master/setup_my_pc.md)
 
+## Dotfiles
+- [dotfiles](https://github.com/JaehyunShim/dotfiles)
+
 ## Study Programming
 - [study_cpp](https://github.com/JaehyunShim/doodles/blob/master/study_cpp.md)
 - [study_python](https://github.com/JaehyunShim/doodles/blob/master/study_python.md)
