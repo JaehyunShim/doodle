@@ -78,9 +78,10 @@ sh -c "echo \"alias nt='nautilus .'\" >> ~/.bashrc"
 sh -c "echo \"alias cw='cd ~/$name_catkin_workspace'\" >> ~/.bashrc"
 sh -c "echo \"alias cs='cd ~/$name_catkin_workspace/src'\" >> ~/.bashrc"
 sh -c "echo \"alias cm='cd ~/$name_catkin_workspace && catkin_make && rospack profile && source ~/$name_catkin_workspace/devel/setup.bash'\" >> ~/.bashrc"
+sh -c "echo \"alias cb='cd ~/$name_catkin_workspace && catkin build && rospack profile && source ~/$name_catkin_workspace/devel/setup.bash'\" >> ~/.bashrc"
 sh -c "echo \"alias ct='cd ~/$name_catkin_workspace && catkin_make run_tests roslint && rospack profile && source ~/$name_catkin_workspace/devel/setup.bash'\" >> ~/.bashrc"
 sh -c "echo \"alias ci='cd ~/$name_catkin_workspace && rosdep install --from-paths src --ignore-src --rosdistro $name_ros_version -r -y'\" >> ~/.bashrc"
-sh -c "echo \"alias cr='cd ~/$name_catkin_workspace && rm -rf build devel'\" >> ~/.bashrc"
+sh -c "echo \"alias cr='cd ~/$name_catkin_workspace && rm -rf build devel logs'\" >> ~/.bashrc"
 
 sh -c "echo \"alias pe='env | grep ROS'\" >> ~/.bashrc"
 
@@ -95,7 +96,7 @@ sh -c "echo \"source ~/$name_catkin_workspace/devel/setup.bash\" >> ~/.bashrc"
 sh -c "echo \"export ROS_MASTER_URI=http://localhost:11311\" >> ~/.bashrc"
 sh -c "echo \"export ROS_HOSTNAME=localhost\" >> ~/.bashrc"
 sh -c "echo \"export TURTLEBOT3_MODEL=burger\" >> ~/.bashrc"
-sh -c "echo \"alias tb3='ssh ubuntu@0.0.0.0' \" >> ~/.bashrc"
+sh -c "echo \"alias tb3='ssh -XC ubuntu@0.0.0.0' \" >> ~/.bashrc"
 
 exec bash
 

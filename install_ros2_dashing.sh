@@ -68,7 +68,7 @@ sh -c "echo \"source ~/$name_colcon_workspace/install/local_setup.bash\" >> ~/.b
 
 sh -c "echo \"export ROS_DOMAIN_ID=30\" >> ~/.bashrc"
 sh -c "echo \"export TURTLEBOT3_MODEL=burger\" >> ~/.bashrc"
-sh -c "echo \"alias tb3='ssh ubuntu@0.0.0.0' \" >> ~/.bashrc"
+sh -c "echo \"alias tb3='ssh -XC ubuntu@0.0.0.0' \" >> ~/.bashrc"
 
 exec bash
 
